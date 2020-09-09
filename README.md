@@ -1,1 +1,1 @@
-# lis753-excercises
+# lis753-exercises
