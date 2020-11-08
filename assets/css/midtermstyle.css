@@ -1,0 +1,24 @@
+body{
+  background-color: #92a8d1;
+  font-family: arial, sans-serif;
+}
+
+h1{
+  color: #ff7b25;
+}
+
+a {
+  color: #dac292
+}
+
+
+img {
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Dashed border */
+hr.dashed {
+  border-top: 3px dashed #bbb;
+}
