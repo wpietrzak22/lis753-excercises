@@ -2,102 +2,17 @@
   box-sizing: border-box;
 }
 
-
 body{
-  background-color: ###100806;
+  background-color: #A799B7;
   font-family: arial, sans-serif;
 }
 
-.wrapper{
-  background-color: ##100806;
-  width: 98%;
-  max-width: 800px;
-  margin:0 auto;
-  padding:12px 20px;
-}
-
-.image {
-  margin: 2em 0;
-}
-
-h1{
-margin-bottom: .5em;
-}
-h1#page-title {
-  margin: 0;
-}
-
-h2{
-  margin-bottom: .25em;
-  margin-top: 1em;
-}
-
-h1, h2 {
-  color: ##100806;
-  color: #E0CA3C;
-  text-align: left;
-}
-
-blockquote{
-  border-left: 3px solid #8D7D16;
-  padding-left: 12px;
-  background-color: #f9f9f9;
-  margin-left: 0;
-}
-
-
-
-.caption {
-  font-style: italic;
-  margin-top: .25em;
-}
-
-a {
-  color: #048A81;
-  padding-left: 25px;
-}
-
-img {
-width: calc(100% - 25px);
-height: auto;
-margin: 2em 0;
-}
-
-ul {
-  padding-left: 20px;
-    margin-top:  8px;
-}
-
-p{
-  line-height: 1.4em;
-}
-
-header{
-  background-image: url(../images/positive.png);
-  border-bottom: 2px: solid #d2d2d2;
-  text-align: center;
-}
-
-header.wrapper {
-  padding: 26px 20px;
-}
-
-footer.wrapper {
-  text-align: center;
-  padding: 40px 20px;
-  border-top: 2px solid #d2d2d2;
-}
-
-article {
-  padding-top: 14px;
-}
-
-aside h2 {
-  font-size: 1.4rem;
-}
-
-@media all and (min-width:920px) {
-  aside h2:first-child {
-    margin-top: 15px;
-  }
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: red;
+   color: white;
+   text-align: center;
 }
