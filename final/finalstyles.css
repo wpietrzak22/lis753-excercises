@@ -4,12 +4,12 @@
 
 
 body{
-  background-color: #A799B7;
+  background-color: ###100806;
   font-family: arial, sans-serif;
 }
 
 .wrapper{
-  background-color: #ffffff;
+  background-color: ##100806;
   width: 98%;
   max-width: 800px;
   margin:0 auto;
@@ -33,7 +33,7 @@ h2{
 }
 
 h1, h2 {
-  color: #2D3047;
+  color: ##100806;
   color: #E0CA3C;
   text-align: left;
 }
