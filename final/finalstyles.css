@@ -3,8 +3,29 @@
 }
 
 body{
-  background-color: #A799B7;
-  font-family: arial, sans-serif;
+  background-image: url(../final/images/background.jpg);
+    background-color: #cccccc;
+}
+
+
+h2 {
+  color: #E0CA3C;
+  text-align: left;
+}
+
+h1{
+margin-bottom: .5em;
+text-align: center;
+color: #E0CA3C;
+
+}
+
+.wrapper{
+  background-color: #945F3F;
+  width: 98%;
+  max-width: 800px;
+  margin:0 auto;
+  padding:12px 20px;
 }
 
 .footer {
@@ -23,6 +44,6 @@ aside h2 {
 
 @media all and (min-width:500px) {
   aside h2:first-child {
-    margin-top: 5px;
+    margin-top: 15px;
   }
 }
