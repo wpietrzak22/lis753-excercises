@@ -4,21 +4,15 @@
 
 body{
   background-image: url(../final/images/background.jpg);
-    background-color: #cccccc;
+  background-color: #cccccc;
+  line-height: 1.6;
+  margin: 0;
+  min-height: 100vh;
 }
-
 
 h2 {
   color: #E0CA3C;
   text-align: left;
-}
-
-h1{
-  margin-top: -1.5em;
-margin-bottom: .5em;
-text-align: center;
-color: #E0CA3C;
-
 }
 
 .wrapper{
@@ -46,3 +40,121 @@ color: #E0CA3C;
     margin-top: 15px;
   }
 }
+
+/* **************************************** */
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+h1 {
+  margin-top: -1.5em;
+margin-bottom: .5em;
+text-align: center;
+color: #E0CA3C;
+}
+
+p {
+  font-weight: 300;
+  font-size: 25px;
+  /* text-transform: uppercase; */
+  color: #090808;
+  padding-top: 50px; }
+
+h2,
+h3,
+a {
+  color: #fff; }
+
+#starwars,
+#theempire,
+#thejedi,
+#lthesith,
+#wookieepedia,
+#google {
+  border: 1px solid #a2a2a2;
+  margin-right: -1px; }
+
+#starwars:hover,
+#theempire:hover,
+#thejedi:hover,
+#contact:hover,
+#lthesith:hover,
+#wookieepedia:hover,
+#google:hover {
+  background-color: #fff;
+  border: 1px solid #fff; }
+
+.logo {
+  margin: 0;
+  font-size: 2.45em; }
+
+.main-nav {
+  margin-top: 5px;
+  padding-right: 50px; }
+
+.logo a,
+.main-nav a {
+  padding: 10px 60px;
+  text-align: center;
+  display: block;
+  text-decoration: none; }
+
+.main-nav a {
+  color: #fff;
+  font-size: .99em;
+  font-weight: 400;
+  text-transform: lowercase; }
+
+.main-nav a:hover {
+  background-color: #fff;
+  color: #090808;
+  text-decoration: none; }
+
+.header {
+  font-weight: 700;
+  padding-top: 4em;
+  padding-bottom: 3em; }
+
+.welcome-section {
+  min-height: 80vh;
+  background-color: #945F3F;
+  text-align: left;
+  padding-top: 4em;
+  padding-left: 6em; }
+
+/* ================================= 
+  Media Queries
+==================================== */
+@media (min-width: 769px) {
+  .header,
+  .main-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+  .header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .header .header {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1150px; } 
+  }
+
+@media (min-width: 1025px) {
+  .header {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; } 
+  }
+
