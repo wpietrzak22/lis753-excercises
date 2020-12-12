@@ -38,9 +38,6 @@ color: #E0CA3C;
    text-align: center;
 }
 
-aside h2 {
-  font-size: 2rem;
-}
 
 @media all and (min-width:500px) {
   aside h2:first-child {
