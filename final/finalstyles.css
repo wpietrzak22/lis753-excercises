@@ -14,6 +14,7 @@ h2 {
 }
 
 h1{
+  margin-top: -1.5em;
 margin-bottom: .5em;
 text-align: center;
 color: #E0CA3C;
@@ -26,6 +27,7 @@ color: #E0CA3C;
   max-width: 800px;
   margin:0 auto;
   padding:12px 20px;
+  background-position: center;
 }
 
 .footer {
