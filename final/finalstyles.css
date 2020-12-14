@@ -24,11 +24,21 @@ h2 {
   background-position: center;
 }
 
+blockquote{
+  border-left: 5px solid #E0CA3C;
+  padding-left: 12px;
+  padding-top: 14px;
+  background-color: #cc0c0c;
+  : white;
+  margin-left: 0;
+}
+
 .footer {
-   position: fixed;
+   position: relative;
    left: 0;
    bottom: 0;
    width: 100%;
+   height: 50px;
    background-color: red;
    color: white;
    text-align: center;
@@ -60,7 +70,7 @@ p {
   font-size: 25px;
   /* text-transform: uppercase; */
   color: #090808;
-  padding-top: 50px; }
+  padding-top: 5px; }
 
 h2,
 h3,
@@ -105,7 +115,7 @@ a {
   color: #fff;
   font-size: .99em;
   font-weight: 400;
-  text-transform: lowercase; }
+  }
 
 .main-nav a:hover {
   background-color: #fff;
@@ -124,7 +134,7 @@ a {
   padding-top: 4em;
   padding-left: 6em; }
 
-/* ================================= 
+/* =================================
   Media Queries
 ==================================== */
 @media (min-width: 769px) {
@@ -144,7 +154,7 @@ a {
   .header .header {
     width: 80%;
     margin: 0 auto;
-    max-width: 1150px; } 
+    max-width: 1150px; }
   }
 
 @media (min-width: 1025px) {
@@ -155,6 +165,5 @@ a {
     flex-direction: row;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
-    justify-content: space-between; } 
+    justify-content: space-between; }
   }
-
